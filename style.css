@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.images2{
+    display: flex;
+    margin: auto; 
+    width: 50%;
+}
+p{
+    text-align: center;
+    color: lightblue;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+p:hover{
+    color: rgba(128, 128, 128, 0.189);
+    animation-name: 1s;
+}
+.liste-non-ordonnée{
+    display: grid;
+    justify-content: center;
+    color: #000;
+    font-size: 20px;
+}
+.liste-non-ordonnée:hover{
+    color: green;
+    animation-name: 1s;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
